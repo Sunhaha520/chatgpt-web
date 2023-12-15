@@ -1,8 +1,8 @@
 <script setup lang='ts'>
 import { computed, onMounted, ref } from 'vue'
 import { NSpin } from 'naive-ui'
-import pkg from '../../../../package.json'
 import { fetchChatConfig } from '@/api'
+import pkg from '@/../package.json'
 import { useAuthStore } from '@/store'
 
 interface ConfigState {
@@ -46,18 +46,18 @@ onMounted(() => {
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
         <p>
-          {{ $t("setting.openSource") }}
+          By: Colaman (ColaAI)
           <a
             class="text-blue-600 dark:text-blue-500"
-            href="https://github.com/Chanzhaoyu/chatgpt-web"
+            href="https://cola.xiaoayu.ren"
             target="_blank"
           >
-            GitHub
+            Github
           </a>
-          {{ $t("setting.freeMIT") }}
+          
         </p>
         <p>
-          {{ $t("setting.stars") }}
+          
         </p>
       </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
