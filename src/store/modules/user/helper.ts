@@ -15,9 +15,9 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://cdn.statically.io/gh/Sunhaha520/picx-images-hosting@master/20231215/avatar.7hn39fxbc780.webp',
+      avatar: 'https://jsd.cdn.zzko.cn/gh/Sunhaha520/picx-images-hosting@master/20231216/avatar.7hypjcgb7r40.webp',
       name: 'Colaman',
-      description: '<a href="" class="text-blue-500" target="_blank" >AI assistant</a>',
+      description: '<a href="https://cola.xiaoayu.ren" class="text-blue-500" target="_blank" >AI assistant</a>',
     },
   }
 }
